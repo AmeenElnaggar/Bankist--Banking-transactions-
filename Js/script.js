@@ -1,11 +1,11 @@
 'use strict';
 
-// DIFFERENT DATA! Contains movement dates, currency and locale
+// Implement Accounts  Contains movement dates, currency and locale
 
 const account1 = {
-  owner: 'Ameen Sayed',
+  owner: 'Jonas Schmedtmann',
   movements: [200, 455.23, -306.5, 25000, -642.21, -133.9, 79.97, 1300],
-  interestRate: 1.2,
+  interestRate: 1.2, // %
   pin: 1111,
 
   movementsDates: [
@@ -19,7 +19,7 @@ const account1 = {
     '2024-05-25T10:51:36.790Z',
   ],
   currency: 'EUR',
-  locale: 'pt-PT',
+  locale: 'pt-PT', // de-DE
 };
 
 const account2 = {
@@ -44,7 +44,8 @@ const account2 = {
 
 const accounts = [account1, account2];
 
-// Select Elements
+//##########################################################################################################
+// Elements
 const labelWelcome = document.querySelector('.welcome');
 const labelDate = document.querySelector('.date');
 const labelBalance = document.querySelector('.balance__value');
