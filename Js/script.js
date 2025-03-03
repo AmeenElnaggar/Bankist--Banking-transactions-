@@ -1,6 +1,6 @@
 'use strict';
 
-// Implement Accounts  Contains movement dates, currency and locale
+// Implement Accounts  Contains movement dates, currency and locale.
 
 const account1 = {
   owner: 'Jonas Schmedtmann',
